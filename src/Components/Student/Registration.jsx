@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Form, Button, Container, Card, Row, Col, Alert } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from 'react-router-dom';
 
 const Registration = () => {
   const [formData, setFormData] = useState({
@@ -144,6 +145,12 @@ const Registration = () => {
                     {loading ? "Signing Up..." : "Sign Up"}
                   </Button>
                 </div>
+                <div className="text-center mt-3">
+                <small>
+                  Get Back To{" "}
+                  <Link to="/login" className="text-warning">Login</Link>
+                </small>
+              </div>
               </Form>
             </Card>
           </Col>

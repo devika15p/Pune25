@@ -11,12 +11,12 @@ const Header = () => {
         <>
             <Navbar bg="white" variant="dark" expand="lg" className='p-0'>
                 <Container>
-                    <Navbar.Brand><img
+                    <img
                         src={examlogo1}
                         alt="Logo"
-                        className="d-block"
-                        width="80" />
-                    </Navbar.Brand>
+                        className="d-block p-0"
+                        width="90" />
+                    
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto">
@@ -28,7 +28,7 @@ const Header = () => {
 
                         {/* Login Navigation */}
                         <Nav.Link as={Link} to="/login" className="text-black mt-2">
-                            <FaUser size={20} className="me-1 text-black mb-2" /> Login
+                            <FaUser size={30} className="me-1 text-black mb-2" /> <b>Login</b>
                         </Nav.Link>
 
                         {/* User Dropdown on the Right */}
