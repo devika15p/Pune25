@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 
 import React from 'react';
 import './HomePage.css'; // Import custom CSS for additional styling
-=======
-/*import React from 'react'
->>>>>>> bb5c672962fb03ddd672005072841c9fd0b39a2a
 
 const Mainpg = () => {
     return (
@@ -25,8 +21,7 @@ const Mainpg = () => {
         </div>
     );
 };
-
-<<<<<<< HEAD
+ HEAD
 =======
 export default Mainpg;*/
 
